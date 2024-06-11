@@ -1,0 +1,23 @@
+{
+          "name": "To do list",
+          "description": "A to do list extension",
+          "version": "1.0",
+          "manifest_version": 3,
+          "background": {
+              "service_worker": "background.js"
+          },
+          "permissions": [
+              "storage"
+              
+          ],
+          "options_page": "options.html",
+          "action": {
+              "default_popup": "popup.html"
+          },
+          "icons": {
+              "16": "/images/note_16.png",
+              "32": "/images/note_32.png",
+              "48": "/images/note_48.png"
+          }
+      
+}
